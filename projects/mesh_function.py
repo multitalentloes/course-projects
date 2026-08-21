@@ -34,5 +34,6 @@ def plot_mesh_function(dt: float):
 if __name__ == "__main__":
     test_mesh_function()
 
+    # plot for both ft=0.1 and dt=0.01
     plot_mesh_function(0.1)
     plot_mesh_function(0.01)
